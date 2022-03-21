@@ -1,0 +1,14 @@
+
+<ngx-spinner bdColor="rgba(51,51,51,0.8)" size="medium" color="#fff"type="ball-scale-multiple">
+
+<!-- <div class="loader"></div> -->
+
+<p style="font-size: 20px; color: white;position:relative;left:3%;top: 100px;">Loading...</p>
+</ngx-spinner>
+
+<app-content 
+*ngFor="let elements of serverElements" [element]="elements"></app-content>
+<!-- <app-home></app-home>  -->
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,75 @@
+.left-side-collapsed .left-side {
+    overflow: visible !important;
+}
+.left-side-collapsed .left-side {
+    width: 52px;
+    top: 0px;
+}
+.left-side-collapsed .sticky-left-side {
+    overflow-y: visible;
+}
+
+.nav {
+    display: block;
+    padding-left: 0;
+    margin-bottom: 0;
+    
+}
+
+.sticky-left-side {
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 999;
+    background: #3E9CCA;
+}
+.left-side {
+    width: 200px;
+    position: absolute;
+    top: 157px;
+    left: 0;
+}
+
+.custom-nav > li.active > a, .custom-nav > li.active > a:hover, .custom-nav > li.active > a:focus {
+    
+color: yellow;
+}
+
+.sidebar-image{
+    width:20px;
+    border-radius:10px;
+    position: relative;
+    left: -10px;
+}
+
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+    top: 70px;
+   
+}
+/*
+.custom-nav > li > a {
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    font-size: .875em;
+}
+
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-decoration: none;
+} */
